@@ -1,6 +1,6 @@
 img {
   width: 100%;
-  max-width: 100%;
+  max-width: 500px;
 }
 
 body {
@@ -9,4 +9,7 @@ body {
 }
 a {
   color: yellow;
+}
+.%name {
+  color: white;
 }
