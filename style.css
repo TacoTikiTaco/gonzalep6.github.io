@@ -23,3 +23,12 @@ h1.ppname {
   display: flex;
   justify-content: space-around;
 }
+.doggie {
+  width: 50px;
+  height: 53px;
+  background-size: cover;
+  transform: translateY(29px);
+  margin: 0;
+  filter: hue-rotate(194deg);
+  cursor: grab;
+}
