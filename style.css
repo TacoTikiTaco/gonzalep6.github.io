@@ -13,3 +13,13 @@ a {
 .ppname {
   color: white;
 }
+nav {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+h1.ppname {
+  display: flex;
+  justify-content: space-around;
+}
