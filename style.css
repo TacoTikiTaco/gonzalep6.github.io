@@ -12,6 +12,8 @@ a {
 }
 .ppname {
   color: white;
+  display: flex;
+  justify-content: space-around;
 }
 nav {
   margin-bottom: 40px;
@@ -19,10 +21,6 @@ nav {
   justify-content: space-around;
 }
 
-h1.ppname {
-  display: flex;
-  justify-content: space-around;
-}
 .doggie {
   display: flex;
   justify-content: space-around;
@@ -31,14 +29,15 @@ h1.ppname {
   background-size: cover;
   filter: hue-rotate(194deg);
   cursor: grab;
-  left: 50%;
+  left: 48%;
   position: relative;
   top: 100px;
 }
 main {
-display: flex;
+  display: flex;
   justify-content: space-around;
 }
-footer
-{display: flex;
-  justify-content: space-around;}
+p.copyright {
+  display: flex;
+  justify-content: space-around;
+}
