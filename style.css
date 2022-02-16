@@ -31,4 +31,7 @@ h1.ppname {
   background-size: cover;
   filter: hue-rotate(194deg);
   cursor: grab;
+  left: 50%;
+  position: relative;
+  top: 100px
 }
