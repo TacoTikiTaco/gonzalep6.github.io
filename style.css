@@ -48,10 +48,7 @@ body {
   font-size: 20px;
 }
 /*BUTTON HOVER CODE*/
-.button {
-  background-color: #4caf50; /* Green */
-  border: none;
-  color: white;
+.buttonfunc {
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
@@ -60,8 +57,13 @@ body {
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Staatliches", cursive;
+  font-size: 40px;
+  margin-bottom: 40px;
 }
-.button1 {
+.▶️ {
   background-color: yellow; 
   color: white; 
   border: 2px solid yellow;
@@ -70,6 +72,7 @@ body {
 .button1:hover {
   background-color: orange;
   color: white;
+  border: 2px solid orange;
 }
 /*DOGGIE*/
 .doggie {
