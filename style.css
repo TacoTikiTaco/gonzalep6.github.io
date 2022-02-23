@@ -5,48 +5,65 @@ img {
 
 body {
   background: linear-gradient(
-    270deg,
+    90deg,
     #ec0b43,
     #e82a59,
     #fa9016,
     #f7a445,
     #fbba72
   );
-  -webkit-animation: AnimationName 41s ease infinite;
-  -moz-animation: AnimationName 41s ease infinite;
-  animation: AnimationName 41s ease infinite;
+  
+  /*START OF TEST CODE*/
+  
+  background-size: 500% 500%;
+  -webkit-animation: AnimationName 1s ease infinite;
+  -moz-animation: AnimationName 1s ease infinite;
+  animation: AnimationName 5s ease infinite;
+  
+  /*END OF TEST CODE*/
+  
   color: black;
   font-family: "Archivo Narrow", sans-serif;
   font-size: 20px;
 }
+
+/*START OF TEST CODE*/
+
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  0% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  0% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
 }
 @keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+  0% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*END OF TEST CODE*/
 
 a {
   color: yellow;
