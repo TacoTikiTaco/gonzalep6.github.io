@@ -18,7 +18,7 @@ body {
   -moz-animation: BACKGROUND-GRADIENT 30s ease infinite;
   animation: BACKGROUND-GRADIENT 30s ease infinite;
 
-  color: black;
+  color: #33004a;
   font-family: "Archivo Narrow", sans-serif;
   font-size: 20px;
 }
@@ -42,14 +42,36 @@ body {
   margin-bottom: 40px;
 }
 /*LINKS*/
-.⛓{
+.⛓ {
   color: gold;
-  display: flex;
-  justify-content: space-around;
-  font-family: "Staatliches", cursive;
-  font-size: 40px;
-  margin-bottom: 40px;
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 20px;
 }
+/*BUTTON HOVER CODE*/
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: yellow; 
+  color: white; 
+  border: 2px solid yellow;
+}
+
+.button1:hover {
+  background-color: orange;
+  color: white;
+}
+/*DOGGIE*/
 .doggie {
   display: flex;
   justify-content: space-around;
