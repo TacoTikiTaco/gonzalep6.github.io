@@ -49,7 +49,7 @@ body {
 }
 nav{
   display:flex;
-  
+  justify-content: center;
 }
 /*BUTTON HOVER CODE*/
 .buttonfunc {
@@ -58,7 +58,7 @@ nav{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 4px 35px;
   transition-duration: 0.4s;
   cursor: pointer;
   display: flex;
