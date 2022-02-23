@@ -4,7 +4,14 @@ img {
 }
 
 body {
-  background: red;
+  background: linear-gradient(
+    270deg,
+    #ec0b43,
+    #e82a59,
+    #fa9016,
+    #f7a445,
+    #fbba72
+  );
   color: black;
 }
 a {
