@@ -13,7 +13,7 @@ body {
     #f7b020,
     #f7d620
   );
-  background-size: 1200% 1200%;
+  background-size: 500% 500%;
   -webkit-animation: BACKGROUND-GRADIENT 30s ease infinite;
   -moz-animation: BACKGROUND-GRADIENT 30s ease infinite;
   animation: BACKGROUND-GRADIENT 30s ease infinite;
@@ -26,12 +26,22 @@ body {
 a {
   color: yellow;
 }
-.ppname {
-  color: white;
+/*NAME*/
+.🐓 {
+  color: gold;
   display: flex;
   justify-content: space-around;
   font-family: "Staatliches", cursive;
   font-size: 120px;
+  font-style: italic;
+}
+/*HEADING*/
+.🌮 {
+  color: gold;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Staatliches", cursive;
+  font-size: 40px;
 }
 nav {
   margin-bottom: 40px;
@@ -58,7 +68,9 @@ main {
 p.copyright {
   display: flex;
   justify-content: space-around;
+  font-style: italic;
 }
+/* BACKGROUND GRADIENT INFORMATION - https://www.gradient-animator.com/ */
 @-webkit-keyframes BACKGROUND-GRADIENT {
   0% {
     background-position: 50% 0%;
