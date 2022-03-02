@@ -6,19 +6,18 @@ img {
 body {
   background: linear-gradient(
     180deg,
-    #B50145,
-    #B40B35,
-    #954108,
-    #8C4800,
-    #78530A,
-    #695A07
+    #360618,
+    #4D051F,
+    #870537,
+    #9C033B,
+    #B50145
   );
   background-size: 500% 500%;
-  -webkit-animation: BACKGROUND-GRADIENT 30s ease infinite;
-  -moz-animation: BACKGROUND-GRADIENT 30s ease infinite;
-  animation: BACKGROUND-GRADIENT 30s ease infinite;
+  -webkit-animation: BACKGROUND-GRADIENT 18s ease infinite;
+  -moz-animation: BACKGROUND-GRADIENT 18s ease infinite;
+  animation: BACKGROUND-GRADIENT 18s ease infinite;
 
-  color: #33004a;
+  color: gold;
   font-family: "Archivo Narrow", sans-serif;
   font-size: 20px;
 }
