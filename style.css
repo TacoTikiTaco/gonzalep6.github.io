@@ -29,7 +29,7 @@ body {
   hsl(353deg 87% 32%) 87%,
   hsl(0deg 76% 34%) 100%
 );
-  background-size: 275% 275%;
+  background-size: 100% 100%;
   -webkit-animation: BACKGROUND-GRADIENT 15s ease infinite;
   -moz-animation: BACKGROUND-GRADIENT 15s ease infinite;
   animation: BACKGROUND-GRADIENT 15s ease infinite;
