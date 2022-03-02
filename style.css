@@ -34,7 +34,7 @@ body {
   -moz-animation: BACKGROUND-GRADIENT 30s ease infinite;
   animation: BACKGROUND-GRADIENT 30s ease infinite;
 
-  color: #33004a;
+  color: gold;
   font-family: "Archivo Narrow", sans-serif;
   font-size: 20px;
 }
@@ -134,7 +134,7 @@ p.copyright {
     background-position: 50% 0%;
   }
   50% {
-    background-position: 50% 75%;
+    background-position: 50% 60%;
   }
   100% {
     background-position: 50% 0%;
@@ -145,7 +145,7 @@ p.copyright {
     background-position: 50% 0%;
   }
   50% {
-    background-position: 50% 75%;
+    background-position: 50% 60%;
   }
   100% {
     background-position: 50% 0%;
