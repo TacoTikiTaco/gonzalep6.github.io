@@ -47,8 +47,8 @@ body {
   font-family: "Archivo Narrow", sans-serif;
   font-size: 20px;
 }
-nav{
-  display:flex;
+nav {
+  display: flex;
   justify-content: center;
 }
 /*BUTTON HOVER CODE*/
@@ -66,17 +66,17 @@ nav{
   font-family: "Staatliches", cursive;
   font-size: 40px;
   margin-bottom: 40px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
 }
 .press {
-  background-color: yellow; 
-  color: white; 
+  background-color: yellow;
+  color: #33004a;
   border: 2px solid yellow;
 }
 .press:hover {
   background-color: orange;
-  color: white;
+  color: #33004a;
   border: 2px solid orange;
 }
 /*DOGGIE*/
