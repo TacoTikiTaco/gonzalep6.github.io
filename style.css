@@ -4,16 +4,32 @@ img {
 }
 
 body {
-  background: linear-gradient(
-    180deg,
-    #ec015c,
-    #f01349,
-    #fa7216,
-    #ff8801,
-    #f7b020,
-    #f7d620
-  );
-  background-size: 500% 500%;
+  background-image: linear-gradient(
+  180deg,
+  hsl(253deg 56% 22%) 0%,
+  hsl(264deg 59% 22%) 13%,
+  hsl(273deg 62% 22%) 19%,
+  hsl(282deg 65% 21%) 24%,
+  hsl(290deg 70% 20%) 28%,
+  hsl(298deg 78% 19%) 32%,
+  hsl(304deg 89% 19%) 35%,
+  hsl(310deg 100% 19%) 39%,
+  hsl(314deg 100% 20%) 42%,
+  hsl(319deg 100% 22%) 45%,
+  hsl(322deg 100% 23%) 48%,
+  hsl(326deg 100% 24%) 52%,
+  hsl(329deg 100% 25%) 55%,
+  hsl(332deg 100% 26%) 58%,
+  hsl(335deg 100% 27%) 61%,
+  hsl(337deg 100% 28%) 65%,
+  hsl(340deg 100% 28%) 68%,
+  hsl(342deg 100% 29%) 72%,
+  hsl(345deg 100% 29%) 76%,
+  hsl(347deg 100% 30%) 81%,
+  hsl(353deg 87% 32%) 87%,
+  hsl(0deg 76% 34%) 100%
+);
+  background-size: 200% 200%;
   -webkit-animation: BACKGROUND-GRADIENT 30s ease infinite;
   -moz-animation: BACKGROUND-GRADIENT 30s ease infinite;
   animation: BACKGROUND-GRADIENT 30s ease infinite;
