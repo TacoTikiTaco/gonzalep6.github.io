@@ -6,12 +6,12 @@ img {
 body {
   background: linear-gradient(
     180deg,
-    #ec015c,
-    #f01349,
-    #fa7216,
-    #ff8801,
-    #f7b020,
-    #f7d620
+    #B50145,
+    #B40B35,
+    #954108,
+    #8C4800,
+    #78530A,
+    #695A07
   );
   background-size: 500% 500%;
   -webkit-animation: BACKGROUND-GRADIENT 30s ease infinite;
@@ -71,12 +71,12 @@ nav{
 }
 .press {
   background-color: yellow; 
-  color: white; 
+  color: purple; 
   border: 2px solid yellow;
 }
 .press:hover {
   background-color: orange;
-  color: white;
+  color: purple;
   border: 2px solid orange;
 }
 /*DOGGIE*/
