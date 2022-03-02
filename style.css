@@ -29,10 +29,10 @@ body {
   hsl(353deg 87% 32%) 87%,
   hsl(0deg 76% 34%) 100%
 );
-  background-size: 200% 200%;
-  -webkit-animation: BACKGROUND-GRADIENT 30s ease infinite;
-  -moz-animation: BACKGROUND-GRADIENT 30s ease infinite;
-  animation: BACKGROUND-GRADIENT 30s ease infinite;
+  background-size: 275% 275%;
+  -webkit-animation: BACKGROUND-GRADIENT 15s ease infinite;
+  -moz-animation: BACKGROUND-GRADIENT 15s ease infinite;
+  animation: BACKGROUND-GRADIENT 15s ease infinite;
 
   color: gold;
   font-family: "Archivo Narrow", sans-serif;
@@ -123,7 +123,7 @@ p.copyright {
     background-position: 50% 0%;
   }
   50% {
-    background-position: 50% 75%;
+    background-position: 50% 35%;
   }
   100% {
     background-position: 50% 0%;
@@ -134,7 +134,7 @@ p.copyright {
     background-position: 50% 0%;
   }
   50% {
-    background-position: 50% 60%;
+    background-position: 50% 35%;
   }
   100% {
     background-position: 50% 0%;
@@ -145,7 +145,7 @@ p.copyright {
     background-position: 50% 0%;
   }
   50% {
-    background-position: 50% 60%;
+    background-position: 50% 35%;
   }
   100% {
     background-position: 50% 0%;
